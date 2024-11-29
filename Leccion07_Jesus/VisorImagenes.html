@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Imágenes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header >
+        <nav class="blue">
+            <div class="container " >
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">JM</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="inicio.html">inicio</a></li>
+                        <li><a href="ahorcado.html">Jugar</a></li> 
+                        <li><a href="VisorImagenes.html">Visor de imagenes</a></li> <!--me faltan-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <!-- Menú de imágenes -->
+            <h5 class="center-align">Menú</h5>
+            <div class="col s12 m3">
+                <div class="menu">
+                    <div class="imagenPequeña"  >
+                        <img src="imagenes/hamburguesa.png" alt="Hamburguesa">
+                    </div>
+                    <div class="imagenPequeña" >
+                        <img src="imagenes/pizza.png" alt="Pizza">
+                    </div>
+                    <div class="imagenPequeña"  >
+                        <img src="imagenes/papasFritas.jpg" alt="Papas fritas">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m3">
+                <div class="menu">
+                    <div class="imagenPequeña"  >
+                        <img src="imagenes/bebida.png">
+                    </div>
+                    <div class="imagenPequeña">
+                        <img src="imagenes/coctel de frutas.jpg" >
+                    </div>
+                    <div class="imagenPequeña" >
+                        <img src="imagenes/bebida2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vista previa -->
+            <div class="col s12 m6">
+                <div class="imagenGrande center-align menu">
+                    <img src="imagenes/hamburguesa.png" alt="Vista previa" id="imagenGrande">
+                    <p id="descripcion"></p>
+                    <a class="waves-effect waves-light blue btn" id="btnAnterior">Anterior</a>
+                    <a class="waves-effect waves-light blue btn" id="btnSiguiente">Siguiente</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

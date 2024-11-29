@@ -1,0 +1,50 @@
+/* Estilo para las letras adivinadas */
+#txtPalabra span {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    width: 30px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+body {
+    background: url(imagenesAhorcado/fondo.jpg) no-repeat center center fixed;
+    background-size: cover; /* Ajusta el fondo */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#letras button {
+    margin: 2px;
+    box-shadow: 2px 2px 5px rgb(108, 107, 107);
+    text-align: center;
+    line-height: 40px;
+}
+
+#imagenAhorcado {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+    display: block;
+    margin: 20px auto; /* Centra la imagen */
+}
+
+
+/* Mensaje */
+#mensaje {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.card {
+    background-color: transparent !important;
+    box-shadow: none; 
+}
+
